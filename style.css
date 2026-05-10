@@ -152,7 +152,22 @@ h1 {
 .boas_vindas {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 17px;
     gap: 1rem;
 
+}
+
+.filtros{
+    display: flex;
+    width: 100%;
+    padding: 7px;
+    
+}
+
+.botão_filtros{
+    padding: 8px;
+    background-color: rgb(227, 60, 60);
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
 }
