@@ -18,8 +18,8 @@ if (hora < 12) {
 
 let lista = [
     {
-        hora:mensagem,
-        nome:"Halley"
+        hora: mensagem,
+        nome: "Halley"
     }
 ];
 
@@ -43,8 +43,11 @@ lista.forEach(iten => {
     
     `
 
-   começo.appendChild(mensagem)
+    começo.appendChild(mensagem)
 
-    
+
 });
+
+
+//////////////// Começar a troca de pagina
 
