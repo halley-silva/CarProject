@@ -112,7 +112,7 @@ h1 {
 
 }
 
-.pagina_central {
+.seção_home {
     height: 100vh;
     background-image: url(assest/espaço.png);
     background-position: center;
@@ -267,3 +267,14 @@ h1 {
 .ativa{
     display: flex;
 }
+
+.missões{
+    display: flex;
+    height: 100vh;
+    background-image: url(assest/fundo\ cadet.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

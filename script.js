@@ -51,3 +51,15 @@ lista.forEach(iten => {
 
 //////////////// Começar a troca de pagina
 
+const pagina = document.querySelectorAll(".pagina");
+
+function trocarPagina(nome) {
+
+    pagina.forEach(pagina => {
+        pagina.classList.remove("ativa");
+    });
+
+    document
+        .querySelector(`.${nome}`)
+        .classList.add("ativa");
+}
