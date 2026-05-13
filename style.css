@@ -122,6 +122,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    gap: 0.4rem;
+    
 
 
 
@@ -138,7 +140,7 @@ h1 {
 
 .informações {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
 
@@ -153,7 +155,7 @@ h1 {
 .boas_vindas {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     gap: 1rem;
 
 }
@@ -206,6 +208,7 @@ h1 {
     justify-content: center;
     align-items: self-end;
     padding: 10px;
+    height: 39vh;
 }
 
 .navegação{
@@ -216,22 +219,22 @@ h1 {
     display: flex;
     padding: 10px;
     justify-content: space-between;
-    position: absolute;
-    top: 1200px;
+    position: fixed;
+    bottom: 3%;
+  
+    
 
-    
-    
 
 }
 
 .home{
-    
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2px;
     transition: 0.3s;
+
 }
 
 .home p {
@@ -339,4 +342,8 @@ h1 {
 
 .perfil{
     height: 100vh;
+    display: flex;
+    
+    
+    color: white;
 }
